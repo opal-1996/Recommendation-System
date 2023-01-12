@@ -1,5 +1,9 @@
 # Recommendation System in E-commerce & Retail
 
+## Example EDA
+![image](EDA-dashboard.png)
+
+
 ## <span style="color:red"> Introduction
 As an artificial intelligence or AI algorithm, recommendation system is usually associated with Machine Learning, that uses Big Data to suggest or recommend additional products to consumers. These can be based on various criteria, including past purchases, search history, demographic information, and other factors. Recommendation systems are highly useful as they help users discover products and services they might otherwise have not found on their own.
 
@@ -58,7 +62,7 @@ Companies implement recommender systems for a variety of reasons, including:
 ### Matrix Factorization
 MF techniques are the core of many popular algorithms, including word embedding and topic modeling, and have become a dominant methodology within `Collaborative Filtering` based algorithms. MF can be used to calculate the similarity in user's ratings or interactions to provide recommendations. 
 
-<center><img align="center" width="240" height="200" src="images/img1.png"></center>
+<center><img align="center" width="240" height="200" src="Images/img1.png"></center>
 
 <br>
 
