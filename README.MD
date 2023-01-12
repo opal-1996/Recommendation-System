@@ -65,7 +65,7 @@ MF techniques are the core of many popular algorithms, including word embedding 
 MF uses the `Alternating Least Squares (ALS)` algorithm to approximate the sparse user item rating matrix (U x I) as the product of two dense matrices, user and item factor matrices of size U x F and F x I (where U is the number of users, I the number of items and F the number of latent features). 
 
 <center><img align="center" width="520
-" height="200" src="images/img2.png"></center>
+" height="200" src="Images/img2.png"></center>
 
 <br>
 
@@ -79,7 +79,7 @@ Notice that the number of latent factors can be tuned via cross-validation. Late
 
 #### I) FNN-based: Neural Collaborative Filtering
 
-<center><img align="center" width="450" height="250" src="images/img3.png"></center>
+<center><img align="center" width="450" height="250" src="Images/img3.png"></center>
 
 <br>
 
@@ -93,7 +93,7 @@ Paper Link: https://arxiv.org/abs/1708.05031
 
 #### II) CNN-based: Variational Autoencoder for Collaborative Filtering
 
-<center><img align="center" width="450" height="250" src="images/img4.png"></center>
+<center><img align="center" width="450" height="250" src="Images/img4.png"></center>
 
 <br>
 The VAE-CF is a neural network that provides collaborative filtering based on user and item interactions. The training data for this model consists of pairs of user-item IDs for each interaction between a user and an item.
@@ -109,7 +109,7 @@ Session context-based recommendations apply the advances in sequence modeling fr
 #### IV) DLRM
 DLRM is a DL-based model for recommendations. It's designed to make use of both categorical and numerical inputs that are usually present in recommender system training data. 
 
-<center><img align="center" width="450" height="380" src="images/img5.png"></center>
+<center><img align="center" width="450" height="380" src="Images/img5.png"></center>
 
 <br>
 
